@@ -1,0 +1,11 @@
+.error-code {
+    color: var(--bs-heading-color);
+    left: 0;
+    right: 0;
+    font-size: 12rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.15;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px rgba(var(--bs-body-color-rgb),.15);
+}

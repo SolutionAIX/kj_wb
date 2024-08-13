@@ -1,0 +1,221 @@
+{
+    "head": {
+        "gradient_text": "Your Step-by-Step Guide",
+        "title": "to Securing a Job in South Korea for Foreigners.",
+        "description": "Securing a job is a big step. Our guide will walk you through every stage, from writing a cover letter to acing your interview.",
+        "button": "Learn more",
+        "south_korea": "Korean companies."
+    },
+    "roadmap": {
+        "first_text": "What You'll Get from This Guide?",
+        "second_text": "We've created this comprehensive 8-section guide to help you confidently apply to",
+        "1": "1. Discover our journey to employment and the three main pathways to finding a job in Korea.",
+        "2": "2. Prepare for the Global Talent Fair and learn how to secure job offers from top Korean companies.",
+        "3": "3. Learn what documents you need and how to register for the job fair.",
+        "4": "4. Learn how to write a Self-Introduction that makes you stand out from other candidates.",
+        "5": "5. Craft the perfect Motivational Letter that meets Korean companies' standards.",
+        "6": "6. Build a CV and portfolio that highlight your skills and experience.",
+        "7": "7. Prepare for interviews using proven strategies and tips.",
+        "8": "8. Post-Job Fair Guide: Gain detailed insights on visas, student internships, and what to do after receiving a job offer.",
+        "9": "Additional bonuses"
+    },
+    "kumush": {
+        "title": "Kumushai - Software Engineer & Guide Creator",
+        "description": "Hello, I'm Kumushai, a passionate software engineer currently working in South Korea. My journey has been filled with challenges and learning opportunities, from mastering Korean and adapting to a new culture to securing a job in a competitive market. My first job offer came even before the Global Talent Fair, and now, I'm eager to share my experience and insights with you.",
+        "offer": {
+            "title": "What I Can Offer:",
+            "1": "Personal Experience: I secured multiple job offers before graduating.",
+            "2": "Guidance on Korean Job Market: I’ve navigated the entire job search process, from document preparation to acing interviews.",
+            "3": "Step-by-Step Instructions: I will guide you through writing an effective self-introduction letter, motivational letter, and resume."
+        },
+        "facts": {
+            "title": "Facts About Me:",
+            "1": "Cultural Insights: Learn how to align your application with Korean corporate culture.",
+            "2": "Currently employed as a software engineer in Seoul.",
+            "3": "Graduated Computer Engineering early this year in February, applied for a KOTRA global job fair and got job offer as software engineer intern before completing my degree and did my internship during my last semester, after gradation applied for E7 Visa and got official contract from same company",
+            "4": "Won GKS Korean Government Scholarship for my bachelor degree in Computer Science and got TOPIK level 6 in Korean."
+        }
+    },
+    "alisher": {
+        "title": "Alisher - Software Engineer",
+        "description": "Hi everyone! I’m Alisher, currently working as a software engineer in South Korea. Last year, I participated in the Global Talent Fair and received over 7 job offers. I’m excited to share my experience and tips on how to navigate job interviews successfully.",
+        "offer": {
+            "title": "What I Can Offer:",
+            "1": "Interview Strategies: Practical tips from someone who has gone through more than 20 interviews inside KOTRA job fair, through job search apps and referrals from my university professors 🧑‍🏫",
+            "2": "Job Offer Insights: Learn how I received multiple offers and how you can too.",
+            "3": "Technical Skills Guidance: What skills Korean companies are looking for and how to showcase them."
+        },
+        "facts": {
+            "title": "Facts About Me:",
+            "1": "Participated in the Global Talent Fair and received 7+ job offers.",
+            "2": "Led international students at Daewoong in the AI & Big Data program.",
+            "3": "Currently employed as a software engineer in Seoul."
+        }
+    },
+    "activation": {
+        "hi": "Hi",
+        "description": "Please enter your activation code below.",
+        "button": "Submit"
+    },
+    "pricing": {
+        "basic_plan": {
+            "title": "Complete Guide",
+            "price": "₩25,000 won",
+            "features": {
+                "1": "Full access to all materials and technical support.",
+                "2": "Access to your personal page on a user-friendly website with unlimited access to materials.",
+                "3": "Regular updates and content improvements: new features, trends, and references."
+            },
+            "button": "Buy Now"
+        },
+        "premium_plan": {
+            "title": "Premium Guide",
+            "price": "₩40,000 won",
+            "old_price": "₩55,000 won",
+            "features": {
+                "1": "All materials",
+                "2": "Online support",
+                "3": "Lifetime access",
+                "4": "Resume and CV review"
+            },
+            "button": "Buy Now"
+        }
+    },
+    "login": {
+        "title": "Login",
+        "description": "Enter your email and password",
+        "email_label": "Email",
+        "password_label": "Password",
+        "enter_email": "Enter your email",
+        "enter_password": "Enter your password",
+        "forgot_password": "Forgot password?",
+        "registration_button": "Registration",
+        "login_button": "Log In",
+        "errors": {
+            "email_required": "Email is required.",
+            "password_required": "Password is required.",
+            "invalid_credentials": "Invalid email or password. Please try again.",
+            "general_error": "Something went wrong. Please try again."
+        }
+    },
+    "registration": {
+        "title": "Registration",
+        "create_account": "Create a new account",
+        "login": "Email",
+        "name_field": "Name",
+        "password_field": "Password",
+        "enter_email": "Enter Email",
+        "enter_name": "Enter Name",
+        "enter_password": "Enter Password",
+        "reenter_password": "Confirm Password",
+        "cancel": "Cancel",
+        "register": "Register",
+        "email": {
+            "required": "Email is required.",
+            "invalid": "Please enter a valid email address.",
+            "already_in_use": "This email is already in use. Please choose another one."
+        },
+        "name": {
+            "required": "Name is required.",
+            "invalid": "Please enter a valid name.",
+            "too_short": "The name is too short. Please enter at least 2 characters.",
+            "too_long": "The name is too long. Please enter no more than 50 characters."
+        },
+        "password": {
+            "required": "Password is required.",
+            "too_short": "Password must be at least 4 characters long.",
+            "too_weak": "The password is too weak. Use a combination of letters, numbers, and symbols.",
+            "mismatch": "Passwords do not match."
+        },
+        "confirm_password": {
+            "required": "Please confirm the password.",
+            "mismatch": "Passwords do not match."
+        },
+        "general": {
+            "registration_failed": "Registration failed. Please try again.",
+            "network_error": "Network error. Please check your connection and try again.",
+            "server_error": "Server error. Please try again later.",
+            "registration_successful": "Registration successful. Please check your email for confirmation."
+        }
+    },
+    "reset_password": {
+        "title": "Reset Password",
+        "description": "Enter your email to reset your password",
+        "email_label": "Email",
+        "email_placeholder": "Enter your email",
+        "cancel_button": "Cancel",
+        "loading_button": "Sending...",
+        "submit_button": "Send confirmation message",
+        "success_message": "Reset password link sent. Please check your email.",
+        "error_message": "Failed to send reset password link. Please try again."
+    },
+    "confirm_reset_password": {
+        "title": "Reset Password - new password",
+        "description": "Enter new password",
+        "password_label": "New password",
+        "confirm_password_label": "Confirm password",
+        "password_placeholder": "Enter new password",
+        "confirm_password_placeholder": "Confirm new password",
+        "loading_button": "Sending...",
+        "cancel_button": "Cancel",
+        "submit_button": "Change password",
+        "password_mismatch": "Passwords do not match!",
+        "success_message": "Password changed successfully!",
+        "error_message": "Failed to change password.",
+        "loading_text": "Processing..."
+    },
+    "activation_confirmation": {
+        "title": "Activate Your Account",
+        "description": "Please wait, we are confirming your account...",
+        "content": "If your account does not automatically activate, please check that you have used the correct link or contact support.",
+        "activation_success": "Your account has been successfully activated.",
+        "activation_error": "Failed to activate account. Please try again or contact support."
+    },
+    "navbar": {
+        "login": "Login",
+        "registration": "Registration",
+        "logout": "Logout",
+        "my_guide": "My Guide",
+        "home": "Home"
+    },
+    "faq": {
+        "title": "Frequently asked questions",
+        "questions": {
+            "1": {
+                "question": "How can this guide help me find a job in Korea?",
+                "answer": "This guide walks you through every step of the job application process in Korea, from creating a strong resume and cover letter to acing interviews and understanding work culture."
+            },
+            "2": {
+                "question": "Is this guide suitable for those just starting their job search?",
+                "answer": "Absolutely! Whether you're just beginning your job search or are already deep into it, this guide is designed to help you at every stage. It includes detailed instructions on creating a resume, writing a cover letter, preparing for interviews, and much more."
+            },
+            "3": {
+                "question": "How important is knowing Korean for finding a job in Korea?",
+                "answer": "It depends on the company. Most Korean companies prefer at least basic Korean skills, some require intermediate levels, while others seek English-speaking foreigners. Check company requirements on their official websites."
+            },
+            "4": {
+                "question": "What documents do I need to prepare for the KOTRA Global Talent Fair?",
+                "answer": "Prepare a well-crafted resume, cover letter, certificates, and any documents that prove your skills. Bring multiple copies and include a portfolio if relevant."
+            },
+            "5": {
+                "question": "What if I haven’t received any interview approvals before the KOTRA Job Fair?",
+                "answer": "You can still attend as a walk-in interviewee. Register at the information desk on the day, and you may still have a chance to interview with companies that have open slots."
+            },
+            "6": {
+                "question": "How can I check the list of companies participating in the fair?",
+                "answer": "The list is usually posted on the official homepage a few days before the event. You can also check at the entrance of the job fair."
+            },
+            "7": {
+                "question": "Can I attend the job fair even if I’m still in university?",
+                "answer": "Yes, and it’s recommended! Participating early helps you gain interview experience, and the event offers valuable resources like recruitment counseling, lectures from job seniors, and corporate presentations to prepare you for future job searches."
+            }
+        }
+    },
+    "error": {
+        "404": "404",
+        "page_not_found": "Page Not Found",
+        "description": "Sorry, the page you are looking for could not be found.",
+        "return_home": "Return Home"
+    },
+    "guide": {}
+}

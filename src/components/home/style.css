@@ -1,0 +1,13 @@
+.text-gradient_indigo-purple {
+    /* Define the gradient */
+    background: linear-gradient(90deg, rgb(91, 19, 143), rgb(180, 7, 180));
+  
+    /* Clip the background to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    /* Make the text color transparent, so the gradient shows through */
+    color: transparent;
+  
+    /* Your font styling */
+  }

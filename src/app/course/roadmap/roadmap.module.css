@@ -1,0 +1,8 @@
+
+
+.bg_blurred_img {
+    background-image: url('/public/images/blur_pattern.svg');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top center;
+}
