@@ -28,34 +28,33 @@ const UserBar = ({ user, isLoggedIn }) => {
         const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
         const cmdKey = isMac ? event.metaKey : event.ctrlKey;
 
-        if (event.shiftKey && cmdKey) {
-            switch (event.key.toUpperCase()) {
-                case 'P':
-                    navigate('/profile');
-                    break;
-                case 'L':
-                    setTheme("light");
-                    break;
-                case 'R':
-                    navigate('/register');
-                    break;
-            }
-        } else if (cmdKey) {
-            switch (event.key.toUpperCase()) {
-                case 'B':
-                    console.log('Billing shortcut pressed');
-                    break;
-                case 'Q':
-                    handleLogout();
-                    break;
-                case 'D':
-                    setTheme("dark");
-                    break;
-                case 'S':
-                    setTheme("system");
-                    break;
-            }
-        }
+        // if (event.shiftKey && cmdKey) {
+        //     switch (event.key.toUpperCase()) {
+        //         case 'P':
+        //             navigate('/profile');
+        //             break;
+        //         case 'L':
+        //             setTheme("light");
+        //             break;
+        //         case 'R':
+        //             navigate('/register');
+        //             break;
+        //     }
+        // } else if (cmdKey) {
+        //     switch (event.key.toUpperCase()) {
+        //         case 'B':
+        //             break;
+        //         case 'Q':
+        //             handleLogout();
+        //             break;
+        //         case 'D':
+        //             setTheme("dark");
+        //             break;
+        //         case 'S':
+        //             setTheme("system");
+        //             break;
+        //     }
+        // }
     };
 
     const handleLogout = () => {

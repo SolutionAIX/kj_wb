@@ -12,11 +12,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
 export function DialogSearch() {
-  const keyDownHandler = (event: KeyboardEvent) => {
-    if (event.metaKey && event.key === "k") {
-      console.log("You just pressed Control and K!");
-    }
-  };
   return (
     <Dialog>
       <DialogTrigger asChild>

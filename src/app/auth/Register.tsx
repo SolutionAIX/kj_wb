@@ -44,7 +44,6 @@ export function Register() {
         re_password: confirmPassword,
       });
 
-      console.log('Registration successful', response.data);
       alert(t('registration.general.registration_successful'));
       navigate('/');
     } catch (error) {

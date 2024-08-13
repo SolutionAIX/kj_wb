@@ -17,11 +17,9 @@ export function ActivationConfirmation() {
           uid,
           token
         });
-        console.log(t('activation_confirmation.activation_success'), response.data);
         alert(t('activation_confirmation.activation_success'));
         navigate('/login'); // Redirect to login page or home page after successful activation
       } catch (error) {
-        console.error(t('activation_confirmation.activation_error'), error);
         alert(t('activation_confirmation.activation_error'));
       }
     };

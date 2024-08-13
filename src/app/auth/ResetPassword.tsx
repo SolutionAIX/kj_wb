@@ -25,7 +25,6 @@ export function ResetPassword() {
       const response = await axiosPublicInstance.post("auth/users/reset_password/", {
         email: email,
       });
-      console.log("Reset password link sent:", response.data);
       alert(t("reset_password.success_message"));
       setLoading(false); // Set loading to false after request is complete
     } catch (error) {

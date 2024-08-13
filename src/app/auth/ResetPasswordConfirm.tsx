@@ -37,7 +37,6 @@ export function ConfirmResetPassword() {
                 password: password,
                 new_password: confirmPassword
             });
-            console.log(response.data);
             alert(t("confirm_reset_password.success_message"));
             navigate('/');
         } catch (error) {

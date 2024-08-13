@@ -64,7 +64,6 @@ export function Login() {
       localStorage.setItem('refreshToken', refresh);
       await fetchUser();
       navigate('/');
-      console.log(t('login.login_successful'), response.data);
     } catch (error) {
       console.error(t('login.errors.general_error'), error);
       setLoading(false);

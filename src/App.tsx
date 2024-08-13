@@ -35,7 +35,6 @@ const App: React.FC = () => {
   };
 
   useEffect(() => {
-    console.log("test");
     const accessToken = localStorage.getItem('accessToken');
     const refreshToken = localStorage.getItem('refreshToken');
 
@@ -43,13 +42,11 @@ const App: React.FC = () => {
       axiosPublicInstance.post(APIs.REFRESH_TOKEN, { refresh: refreshToken })
         .then(res => {
           const newAccessToken = res.data.access;
-          console.log(newAccessToken);
           dispatch(setCredentials({
             accessToken: newAccessToken,
             refreshToken: refreshToken,
           }));
           localStorage.setItem('accessToken', newAccessToken);
-          console.log("start fetch user");
           fetchUser();
           setLoading(false);
         })
