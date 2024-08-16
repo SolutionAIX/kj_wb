@@ -19,6 +19,7 @@ const Guide = () => {
             try {
                 const response = await axiosPrivateInstance.get(`${import.meta.env.VITE_REACT_APP_API_URL}/guide/contents/`);
                 setContents(response.data);
+                console.log(response.data);
                 setLoading(false);
             } catch (error) {
                 setError('Failed to load content.');
