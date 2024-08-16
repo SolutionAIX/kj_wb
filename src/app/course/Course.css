@@ -15,8 +15,8 @@
 .bg_pattern_blur {
     background-image: url('/public/images/blur_pattern.svg');
     background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: top center;
+    background-size: 50%;
+    background-position: center center;
 }
 
 .bg_pattern_box {

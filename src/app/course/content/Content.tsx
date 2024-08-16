@@ -71,7 +71,7 @@ function ContentSection() {
                             </ul>
                             <ul role="list" className="pt-4 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
                                 <h1 className="text-gray-800 font-bold dark:text-white">{t('alisher.facts.title')}</h1>
-                                {[1, 2, 3].map((index) => (
+                                {[1, 2, 3, 4].map((index) => (
                                     <li key={index} className="flex space-x-3">
                                         <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
                                             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

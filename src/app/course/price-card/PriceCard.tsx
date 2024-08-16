@@ -1,6 +1,7 @@
 import { BorderBeam } from '@/app/auth/BorderBeam';
 import GridPattern from '@/components/magicui/grid-pattern';
 import Meteors from '@/components/magicui/meteors';
+import { NeonGradientCard } from '@/components/magicui/neon-gradient-card';
 import { cn } from '@/lib/utils';
 import { useTranslation } from 'react-i18next';
 
@@ -8,12 +9,12 @@ function PriceCard() {
     const { t } = useTranslation();
 
     return (
-        <section className="bg_pattern_blur">
-            <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
-                <div className='h-[100px]'></div>
+        <section className="">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto">
                 <div className="p-2 md:p-10">
                     <div className="relative max-w-7xl mx-auto">
-                        <div className="relative max-w-lg mx-auto rounded-xl shadow-lg overflow-hidden lg:max-w-none lg:flex">
+                        <NeonGradientCard >
+                        <div className="relative mx-auto rounded-[18px] shadow-lg overflow-hidden lg:max-w-none lg:flex">
                             <div className="relative flex-1 px-6 py-8 lg:p-12 bg-black ">
                                 <h3 className="text-2xl font-extrabold text-white sm:text-3xl">{t('pricing.basic_plan.title')}</h3>
                                 <div className="mt-8">
@@ -67,7 +68,7 @@ function PriceCard() {
                                     </div>
                                 </div>
                             </div>
-                            <BorderBeam />
+                            {/* <BorderBeam /> */}
                             <GridPattern
                                 width={30}
                                 height={30}
@@ -79,6 +80,7 @@ function PriceCard() {
                                 )}
                             />
                         </div>
+                        </NeonGradientCard>
 
                     </div>
                 </div>

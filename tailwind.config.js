@@ -69,6 +69,11 @@ module.exports = {
           "0%": { transform: "translateY(-50%)" },
           "100%": { transform: "translateY(0)" },
         },
+        "background-position-spin": {
+          "0%": { backgroundPosition: "top center" },
+          "100%": { backgroundPosition: "bottom center" },
+        },
+
         ripple: {
           "0%, 100%": {
             transform: "translate(-50%, -50%) scale(1)",
@@ -102,6 +107,8 @@ module.exports = {
       animation: {
         grid: "grid 15s linear infinite",
         ripple: "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
+        backgroundPositionSpin:
+          "background-position-spin 3000ms infinite alternate",
         meteor: "meteor 5s linear infinite",
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
         "accordion-down": "accordion-down 0.2s ease-out",

@@ -21,35 +21,36 @@
     },
     "kumush": {
         "title": "Kumushai - Software Engineer & Guide Creator",
-        "description": "Hello, I'm Kumushai, a passionate software engineer currently working in South Korea. My journey has been filled with challenges and learning opportunities, from mastering Korean and adapting to a new culture to securing a job in a competitive market. My first job offer came even before the Global Talent Fair, and now, I'm eager to share my experience and insights with you.",
+        "description": "Hello! I’m Kumush, a software engineer in Seoul, South Korea. After graduating with a degree in Computer Science from Jeonju University, I, like many international students, faced challenges in finding a job in Korea. But by understanding the Korean approach to employment and participating in the KOTRA Global Talent Fair, I managed to secure several job offers. Now, I’m here to share my experience and help you find a job in Korea!",
         "offer": {
-            "title": "What I Can Offer:",
-            "1": "Personal Experience: I secured multiple job offers before graduating.",
+            "title": "How Can I Help You?",
+            "1": "Document Preparation: I can help you write a cover letter (자기소개서), motivation letter (지원동기), and create a portfolio that meets the standards of Korean companies.",
             "2": "Guidance on Korean Job Market: I’ve navigated the entire job search process, from document preparation to acing interviews.",
             "3": "Step-by-Step Instructions: I will guide you through writing an effective self-introduction letter, motivational letter, and resume."
         },
         "facts": {
             "title": "Facts About Me:",
-            "1": "Cultural Insights: Learn how to align your application with Korean corporate culture.",
-            "2": "Currently employed as a software engineer in Seoul.",
-            "3": "Graduated Computer Engineering early this year in February, applied for a KOTRA global job fair and got job offer as software engineer intern before completing my degree and did my internship during my last semester, after gradation applied for E7 Visa and got official contract from same company",
-            "4": "Won GKS Korean Government Scholarship for my bachelor degree in Computer Science and got TOPIK level 6 in Korean."
+            "1": "Document Preparation: I can help you write a cover letter (자기소개서), motivation letter (지원동기), and create a portfolio that meets the standards of Korean companies.",
+            "2": "Received an internship offer at the KOTRA Global Job Fair before graduation. I completed my internship in the final semester and obtained an E7 visa with an official contract from the same company after graduation.",
+            "3": "Passionate about developing creative and engaging software.",
+            "4": "Love inspiring and motivating people with my story!"
         }
     },
     "alisher": {
         "title": "Alisher - Software Engineer",
-        "description": "Hi everyone! I’m Alisher, currently working as a software engineer in South Korea. Last year, I participated in the Global Talent Fair and received over 7 job offers. I’m excited to share my experience and tips on how to navigate job interviews successfully.",
+        "description": "After earning my degree in Computer Science, I launched my career as a software engineer in South Korea. The job market here is challenging, but with experience and strategic preparation, I secured over seven job offers at the KOTRA job fair and gained invaluable experience. Now, I’m here to share these strategies with you—helping you succeed in interviews, craft a strong resume and portfolio, and land your first job.",
         "offer": {
-            "title": "What I Can Offer:",
-            "1": "Interview Strategies: Practical tips from someone who has gone through more than 20 interviews inside KOTRA job fair, through job search apps and referrals from my university professors 🧑‍🏫",
-            "2": "Job Offer Insights: Learn how I received multiple offers and how you can too.",
-            "3": "Technical Skills Guidance: What skills Korean companies are looking for and how to showcase them."
+            "title": "How Can I Help You?",
+            "1": "Interview Strategies: Practical advice from someone who has gone through over 20 interviews at the KOTRA job fair, job search apps, and through university professor recommendations 🧑‍🏫",
+            "2": "Job Offer Insights: Learn the strategies and methods I used to receive multiple job offers and how you can apply these approaches in your career.",
+            "3": "Technical Skills Guidance: Understand what skills Korean companies are looking for and how to effectively showcase them."
         },
         "facts": {
-            "title": "Facts About Me:",
-            "1": "Participated in the Global Talent Fair and received 7+ job offers.",
-            "2": "Led international students at Daewoong in the AI & Big Data program.",
-            "3": "Currently employed as a software engineer in Seoul."
+            "title": "About Me:",
+            "1": "Currently working as a software engineer in Seoul.",
+            "2": "Completed an internship at one of Korea's major companies, Daewoong.",
+            "3": "Led international students at Daewoong in the AI and Big Data program and also served as an interviewer during the internship.",
+            "4": "Passionate about backend development and mentoring, helping others succeed in the competitive Korean job market."
         }
     },
     "activation": {

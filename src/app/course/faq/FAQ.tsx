@@ -52,7 +52,7 @@ function FAQ() {
                     {faqs.map((faq, index) => (
                         <div
                             key={index}
-                            className={`accordion border border-solid border-gray-300 dark:border-gray-700 p-4 rounded-xl transition duration-200 mb-8 lg:p-4 ${activeIndex === index ? 'bg-indigo-50 dark:bg-indigo-900 border-indigo-600' : 'dark:bg-gray-800 dark:border-gray-700'
+                            className={`accordion border border-solid border-gray-300 dark:border-gray-700 p-4 rounded-xl transition duration-200 mb-8 lg:p-4 ${activeIndex === index ? 'bg-indigo-50 dark:bg-indigo-900 border-indigo-600' : 'dark:bg-neutral-900 dark:border-gray-700'
                                 }`}
                         >
                             <button
