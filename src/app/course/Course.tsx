@@ -16,7 +16,7 @@ function Course() {
 				<ContentSection />
 			</div>
 			<div className="">
-				<PriceCard />
+				{/* <PriceCard /> */}
 			</div>
 			<div>
 				<FAQ />
