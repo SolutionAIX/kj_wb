@@ -26,7 +26,7 @@
     "@reduxjs/toolkit": "^2.2.3",
     "@splinetool/react-spline": "^4.0.0",
     "@theme-toggles/react": "^4.1.0",
-    "axios": "^1.6.8",
+    "axios": "^1.7.4",
     "canvas-confetti": "^1.9.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
