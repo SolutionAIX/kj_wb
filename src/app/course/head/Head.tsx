@@ -1,18 +1,15 @@
 import Lottie from 'lottie-react';
 import animationJson from './main_animation.json';
 import Title from './Title';
-import dynamic from 'next/dynamic';
 import { useTranslation } from 'react-i18next';
 import ShinyButton from '@/components/magicui/shiny-button';
-
-const SplineComponent = dynamic(() => import('@splinetool/react-spline'), { ssr: false });
 
 function Head() {
     const { t } = useTranslation();
 
     return (
         <>
-            <section className="relative flex h-[94vh] w-full flex-col items-center justify-center overflow-hidden">
+            <section className="relative flex h-[90vh] w-full flex-col items-center justify-center overflow-hidden">
                 <div className="grid z-10 max-w-screen-xl h-full items-center justify-center px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                     <div className="mr-auto place-self-center lg:col-span-7">
                         <div className="flex flex-wrap gap-2 mb-4">

@@ -56,7 +56,8 @@
     "activation": {
         "hi": "Hi",
         "description": "Please enter your activation code below.",
-        "button": "Submit"
+        "button": "Submit",
+        "empty_field": "Please enter your activation code!"
     },
     "pricing": {
         "basic_plan": {
@@ -210,6 +211,24 @@
                 "question": "Can I attend the job fair even if I’m still in university?",
                 "answer": "Yes, and it’s recommended! Participating early helps you gain interview experience, and the event offers valuable resources like recruitment counseling, lectures from job seniors, and corporate presentations to prepare you for future job searches."
             }
+        }
+    },
+    "payment_process":{
+        "step1":{
+            "title": "Transfer 19,000 won to the following account:",
+            "name": "Name: NAZHIMIDIN",
+            "bank": "Jeonbuk Bank / 전북은행: 1013-01-4805312"
+        },
+        "step2":{
+            "title": "Send us the payment receipt or a screenshot in a direct message on Instagram.",
+            "description": "@ali____0151 or @kumushn_ or via email at support@solutionaix.com"
+        },
+        "step3":{
+            "title": "We will send you a one-time activation code.",
+            "description": "Please do not share this code, as it is a one-time use. Once activated, it cannot be used again."
+        },
+        "step4":{
+            "title":"After activation, you will gain access to all materials."
         }
     },
     "error": {
