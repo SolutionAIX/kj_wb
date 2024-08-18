@@ -96,7 +96,7 @@
         "errors": {
             "email_required": "Email is required.",
             "password_required": "Password is required.",
-            "invalid_credentials": "Invalid email or password. Please try again.",
+            "invalid_credentials": "Invalid email or password. Please check your email to activate your account.",
             "general_error": "Something went wrong. Please try again."
         }
     },
@@ -213,22 +213,22 @@
             }
         }
     },
-    "payment_process":{
-        "step1":{
+    "payment_process": {
+        "step1": {
             "title": "Transfer 19,000 won to the following account:",
             "name": "Name: NAZHIMIDIN",
             "bank": "Jeonbuk Bank / 전북은행: 1013-01-4805312"
         },
-        "step2":{
+        "step2": {
             "title": "Send us the payment receipt or a screenshot in a direct message on Instagram.",
             "description": "@ali____0151 or @kumushn_ or via email at support@solutionaix.com"
         },
-        "step3":{
+        "step3": {
             "title": "We will send you a one-time activation code.",
             "description": "Please do not share this code, as it is a one-time use. Once activated, it cannot be used again."
         },
-        "step4":{
-            "title":"After activation, you will gain access to all materials."
+        "step4": {
+            "title": "After activation, you will gain access to all materials."
         }
     },
     "error": {

@@ -96,7 +96,7 @@
         "errors": {
             "email_required": "Требуется ввести почту.",
             "password_required": "Требуется ввести пароль.",
-            "invalid_credentials": "Неверная почта или пароль. Пожалуйста, попробуйте еще раз.",
+            "invalid_credentials": "Invalid email or password. Please check your email to activate your account.",
             "general_error": "Что-то пошло не так. Пожалуйста, попробуйте снова."
         }
     },
