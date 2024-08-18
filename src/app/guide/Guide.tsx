@@ -56,12 +56,12 @@ const Guide = () => {
     return (
         <div className="mx-auto py-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 px-4">
-                <div className="lg:col-span-8">
+                <div className="lg:col-span-8 order-2 lg:order-1">
                     {contents.length > 0 && (
                         <GuideContent contentUrl={updateLanguageUrl(contents[isActiveContent].url)} />
                     )}
                 </div>
-                <div className="lg:col-span-4">
+                <div className="lg:col-span-4 order-1 lg:order-2">
                     <div className="border shadow-md rounded-lg p-6">
                         <div className="flex flex-col">
                             <h1 className="font-bold text-xl mb-4">Material Course</h1>
@@ -83,6 +83,7 @@ const Guide = () => {
                 </div>
             </div>
         </div>
+
     );
 }
 
