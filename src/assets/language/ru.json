@@ -59,6 +59,10 @@
         "button": "Активировать",
         "empty_field": "Пожалуйста, введите ваш код активации!"
     },
+    "guide": {
+        "previous": "Предыдущий",
+        "next": "Следующий"
+    },
     "pricing": {
         "basic_plan": {
             "title": "Полный гайд",
@@ -216,7 +220,7 @@
     "payment_process": {
         "step1": {
             "title": "Переведите 19,000 вон на следующий счет:",
-             "name": "Имя: NAZHIMIDIN",
+            "name": "Имя: NAZHIMIDIN",
             "bank": "Jeonbuk Bank / 전북은행: 1013-01-4805312"
         },
         "step2": {

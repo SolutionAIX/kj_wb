@@ -53,6 +53,10 @@
             "4": "Passionate about backend development and mentoring, helping others succeed in the competitive Korean job market."
         }
     },
+    "guide":{
+        "previous": "Previous",
+        "next": "Next"
+    },
     "activation": {
         "hi": "Hi",
         "description": "Please enter your activation code below.",
@@ -236,6 +240,5 @@
         "page_not_found": "Page Not Found",
         "description": "Sorry, the page you are looking for could not be found.",
         "return_home": "Return Home"
-    },
-    "guide": {}
+    }
 }
