@@ -67,6 +67,7 @@
         "basic_plan": {
             "title": "Complete Guide",
             "price": "₩25,000 won",
+            "sale_description": "Special Offer for the Guide Launch! 🚀",
             "features": {
                 "1": "Full access to all materials and technical support.",
                 "2": "Access to your personal page on a user-friendly website with unlimited access to materials.",
