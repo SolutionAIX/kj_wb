@@ -91,7 +91,7 @@ function PriceCard() {
                                     </div>
                                 </div>
                                 <div className="py-8 px-6 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12 bg-neutral-800">
-                                    <div className="mt-4 text-4xl font-extrabold text-white text-center lg:text-left">
+                                    <div className="mt-4 text-4xl font-extrabold text-white text-center">
                                         <span className="text-xl font-medium text-gray-200 line-through">
                                             ₩30,000won
                                         </span>
@@ -99,7 +99,7 @@ function PriceCard() {
                                             35%
                                         </span>
                                     </div>
-                                    <div className="mt-4 flex flex-col items-center lg:flex-row lg:justify-start text-4xl font-extrabold text-white break-normal">
+                                    <div className="mt-4 text-center items-end lg:flex-row lg:justify-start text-4xl font-extrabold text-white break-normal">
                                         <span>₩19,000</span>
                                         <span className="ml-3 text-xl font-medium text-gray-50">won</span>
                                     </div>
