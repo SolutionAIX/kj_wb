@@ -65,7 +65,7 @@ const UserBar = ({ user, isLoggedIn }) => {
     return (<>
         {isLoggedIn == true && (
             <>
-                <div className="hidden sm:mt-0 sm:col-span-5 sm:flex">
+                <div className="sm:mt-0 sm:col-span-5 sm:flex">
                     <Button variant="outline" className="mr-2" onClick={() => navigate('/guide')}>{t('navbar.my_guide')}</Button>
                 </div>
 

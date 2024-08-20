@@ -17,6 +17,9 @@ import Footer from './components/footer/Footer';
 import Guide from './app/guide/Guide';
 import GuideActivation from './app/guide/GuideActivation';
 import LoadingPage from './app/loading/LoadingPage';
+import { GoogleOAuthProvider } from '@react-oauth/google';
+
+const clientId = '816781301082-l8pvuhgrm6peqfbjtoa69f9re79rubkp.apps.googleusercontent.com';
 
 const App: React.FC = () => {
   const dispatch = useDispatch();
@@ -61,50 +64,62 @@ const App: React.FC = () => {
 
   if (loading) return <LoadingPage />;
 
+  const excludeNavbarPaths = [
+    '/login',
+    '/register'
+  ];
+
+  // Check if the current path matches any of the excluded paths
+  const shouldShowNavbar = !excludeNavbarPaths.some(path =>
+    location.pathname.includes(path)
+  );
+
   return (
-    <BrowserRouter>
-      <TopNavbar />
-      <Routes>
-        <Route path="/login" element={
-          <AuthGuard requireAuth={false}>
-            <Login />
-          </AuthGuard>
-        } />
-        <Route path="/register" element={
-          <AuthGuard requireAuth={false}>
-            <Register />
-          </AuthGuard>
-        } />
-        <Route path="/reset_password" element={<AuthGuard requireAuth={false}>
-          <ResetPassword />
-        </AuthGuard>} />
-        <Route path="/password/reset/confirm/:uid/:token" element={<AuthGuard requireAuth={false}>
-          <ConfirmResetPassword />
-        </AuthGuard>} />
-        <Route path="/activate/:uid/:token" element={<AuthGuard requireAuth={false}>
-          <ActivationConfirmation />
-        </AuthGuard>} />
-        <Route path="/confirmation" element={<AuthGuard requireAuth={false}>
-          <ActivationConfirmation />
-        </AuthGuard>} />
-        <Route path="/guide" element={<AuthGuard requireAuth={true}>
-          <Guide />
-        </AuthGuard>} />
-        <Route path="/" element={
-          <>
-            <Home />
-          </>
-        } />
-        <Route path="/activate-guide" element={<AuthGuard requireAuth={true}>
-          <>
-            <GuideActivation />
-          </>
-        </AuthGuard>} />
-        <Route path="/error" element={<Error />} />
-        <Route path="*" element={<Navigate to="/error" />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <GoogleOAuthProvider clientId={clientId}>
+      <BrowserRouter>
+        <TopNavbar />
+        <Routes>
+          <Route path="/login" element={
+            <AuthGuard requireAuth={false}>
+              <Login />
+            </AuthGuard>
+          } />
+          <Route path="/register" element={
+            <AuthGuard requireAuth={false}>
+              <Register />
+            </AuthGuard>
+          } />
+          <Route path="/reset_password" element={<AuthGuard requireAuth={false}>
+            <ResetPassword />
+          </AuthGuard>} />
+          <Route path="/password/reset/confirm/:uid/:token" element={<AuthGuard requireAuth={false}>
+            <ConfirmResetPassword />
+          </AuthGuard>} />
+          <Route path="/activate/:uid/:token" element={<AuthGuard requireAuth={false}>
+            <ActivationConfirmation />
+          </AuthGuard>} />
+          <Route path="/confirmation" element={<AuthGuard requireAuth={false}>
+            <ActivationConfirmation />
+          </AuthGuard>} />
+          <Route path="/guide" element={<AuthGuard requireAuth={true}>
+            <Guide />
+          </AuthGuard>} />
+          <Route path="/" element={
+            <>
+              <Home />
+            </>
+          } />
+          <Route path="/activate-guide" element={<AuthGuard requireAuth={true}>
+            <>
+              <GuideActivation />
+            </>
+          </AuthGuard>} />
+          <Route path="/error" element={<Error />} />
+          <Route path="*" element={<Navigate to="/error" />} />
+        </Routes>
+        {shouldShowNavbar && <Footer />}
+      </BrowserRouter>
+    </GoogleOAuthProvider>
   );
 };
 export default App;

@@ -91,6 +91,8 @@
     "login": {
         "title": "Login",
         "description": "Enter your email and password",
+        "login_via_google":"Sign Up with Google",
+        "sign_in_with_email": "Or sign up with e-mail",
         "email_label": "Email",
         "password_label": "Password",
         "enter_email": "Enter your email",

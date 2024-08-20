@@ -15,7 +15,7 @@ export default function TopNavbar() {
     const [openNav, setOpenNav] = useState(false);
     const { user, isLoggedIn } = useSelector((state: RootState) => state.auth);
     const location = useLocation();
-    const {t} = useTranslation();
+    const { t } = useTranslation();
     const [pageTitle, setPageTitle] = useState('');
 
     useEffect(() => {
@@ -41,10 +41,12 @@ export default function TopNavbar() {
                         <div className="w-full flex-1 md:w-auto md:flex-none">
 
                         </div>
-                        <div className="hidden sm:mt-0 sm:col-span-5 sm:flex">
+                        <div className="sm:mt-0 sm:col-span-5 sm:flex">
                             <LanguageSelector />
                         </div>
-                        <ThemeChanger />
+                        <div className="sm:mt-0 sm:col-span-5 sm:flex">
+                            <ThemeChanger />
+                        </div>
                         <nav className="flex items-center">
                             <UserBar user={user} isLoggedIn={isLoggedIn} />
                         </nav>

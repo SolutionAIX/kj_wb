@@ -62,9 +62,6 @@ export function SideBar() {
                                 <span className="flex-1 ms-3 whitespace-nowrap">My Guide</span>
                             </Link>
                         </li>
-                        <li>
-                            <LanguageSelector />
-                        </li>
                     </ul>
                 </div>
             </SheetContent>

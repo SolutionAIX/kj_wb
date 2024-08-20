@@ -89,8 +89,10 @@
         }
     },
     "login": {
-        "title": "Вход",
+        "title": "Логин",
+        "login_via_google": "Войти через гугл",
         "description": "Введите вашу почту и пароль",
+        "sign_in_with_email": "Или войдите через почту",
         "email_label": "Почта",
         "password_label": "Пароль",
         "enter_email": "Введите вашу почту",

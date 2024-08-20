@@ -8,7 +8,7 @@ const Error = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="w-full px-16 md:px-0 h-[94vh] flex items-center justify-center">
+        <div className="w-full px-4 md:px-0 h-[94vh] flex items-center justify-center">
             <div className="relative border border-gray-200 dark:border-gray-700 flex flex-col items-center justify-center px-4 md:px-8 lg:px-24 py-8 rounded-lg shadow-2xl">
                 <p className="text-6xl md:text-7xl lg:text-9xl font-bold tracking-wider text-gray-800 dark:text-gray-200">
                     {t('error.404')}
@@ -25,7 +25,6 @@ const Error = () => {
                     </svg>
                     <span>{t('error.return_home')}</span>
                 </Button>
-                <BorderBeam />
             </div>
         </div>
     );

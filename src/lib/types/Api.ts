@@ -6,4 +6,5 @@ export const APIs = {
     ACTIVATION: "/auth/users/activation/",
     RESET_PASSWORD: "/auth/users/reset_password/",
     RESET_PASSWORD_CONFIRM: "/auth/users/reset_password_confirm/",
+    GOOGLE_AUTH: "/guide/google-auth/"
 }

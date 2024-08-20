@@ -30,7 +30,7 @@ export function LanguageSelector() {
             alt={languages[currentLanguage].name}
             className="w-5 h-3"
           />
-          <span>{languages[currentLanguage].name}</span>
+          <span className="hidden sm:mt-0 sm:col-span-5 sm:flex">{languages[currentLanguage].name}</span>
         </button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
