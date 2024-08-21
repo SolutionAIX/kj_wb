@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { setCredentials } from '@/lib/slice/userSlice';
 import { APIs } from '@/lib/types/Api';
 
-function GoogleAuth({fetchUser}) {
+function GoogleAuth({ fetchUser }) {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const onSuccess = async (credentialResponse) => {
@@ -34,11 +34,18 @@ function GoogleAuth({fetchUser}) {
         console.error('Google Sign In Failure:', error);
     };
 
+    const onGoogleAuthFailure = (response) => {
+        console.error('Google authentication failed:', response);
+        // Handle failure
+    };
+
     return (
         <div>
             <GoogleLogin
                 onSuccess={onSuccess}
                 onError={onFailure}
+                onFailure={onGoogleAuthFailure}
+                cookiePolicy={'single_host_origin'}
             />
         </div>
     );

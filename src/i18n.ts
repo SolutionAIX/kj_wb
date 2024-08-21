@@ -13,7 +13,7 @@ const resources = {
 	}
   };
 
-const language = localStorage.getItem('i18nextLng') || 'ru';
+const language = localStorage.getItem('i18nextLng') || 'en';
 
 i18n
   .use(LanguageDetector)

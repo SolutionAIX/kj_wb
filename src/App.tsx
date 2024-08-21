@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setCredentials, logout, setUser } from './lib/slice/userSlice';
 import { Login } from './app/auth/Login';
@@ -19,11 +19,12 @@ import GuideActivation from './app/guide/GuideActivation';
 import LoadingPage from './app/loading/LoadingPage';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
-const clientId = '816781301082-l8pvuhgrm6peqfbjtoa69f9re79rubkp.apps.googleusercontent.com';
+const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 const App: React.FC = () => {
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(true);
+  const location = useLocation();
 
   const fetchUser = async () => {
     try {
@@ -69,14 +70,13 @@ const App: React.FC = () => {
     '/register'
   ];
 
-  // Check if the current path matches any of the excluded paths
+  // Check if the current path matches any of the excluded paths using useLocation
   const shouldShowNavbar = !excludeNavbarPaths.some(path =>
     location.pathname.includes(path)
   );
 
   return (
     <GoogleOAuthProvider clientId={clientId}>
-      <BrowserRouter>
         <TopNavbar />
         <Routes>
           <Route path="/login" element={
@@ -118,7 +118,6 @@ const App: React.FC = () => {
           <Route path="*" element={<Navigate to="/error" />} />
         </Routes>
         {shouldShowNavbar && <Footer />}
-      </BrowserRouter>
     </GoogleOAuthProvider>
   );
 };

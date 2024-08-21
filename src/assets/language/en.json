@@ -144,7 +144,7 @@
             "registration_failed": "Registration failed. Please try again.",
             "network_error": "Network error. Please check your connection and try again.",
             "server_error": "Server error. Please try again later.",
-            "registration_successful": "Registration successful. Please check your email for confirmation."
+            "registration_successful": "Registration successful."
         }
     },
     "reset_password": {
